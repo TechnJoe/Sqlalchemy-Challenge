@@ -1,6 +1,6 @@
 /*
 File name: C:\Users\Man-y\Desktop\HomeWork\Sqlalchemy-Challenge\Resources\hawaii.sql
-Creation date: 12/03/2020
+Creation date: 12/04/2020
 Created by SQLite to PostgreSQL 2.1 [Demo]
 --------------------------------------------------
 More conversion tools at http://www.convert-in.com
@@ -15,7 +15,7 @@ DROP TABLE IF EXISTS "public"."measurement" CASCADE;
 CREATE TABLE "public"."measurement" ("id" INTEGER NOT NULL, "station" TEXT, "date" TEXT, "prcp" DOUBLE PRECISION, "tobs" DOUBLE PRECISION);
 DROP INDEX IF EXISTS "PK_measurement";
 ALTER TABLE "public"."measurement" ADD CONSTRAINT "PK_measurement" PRIMARY KEY ("id");
-SELECT * FROM public. "measurement"
+
 /*
 Dumping data for table 'public.measurement'
 */
